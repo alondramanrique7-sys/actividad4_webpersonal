@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+           body{
+                background-color: #f4f4f4;
+                font-family: Arial, sans-serief;
+                margin:0;
+                padding:0;
+                line-height: 1.6;
+            }
+            
+        header{
+            background-image: url(images.jpg);
+            background-size: cover;
+            height: 200px;
+            background-color: #0f2e52;
+            color:white;
+            text-align:center;
+            padding: 20px;
+            }
+            header 
+            h1{
+            color:white;
+            }
+            nav ul{
+                list-style: none;
+                padding: 0;
+            }
+            nav ul li {
+                display: inline;
+                margin: 0 30px;
+            }
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            nav a:hover{
+                color: #09dbae; 
+            }
+             footer{
+                background-color: #000000;
+                text-align: center;
+                color:white;
+                padding: 10px;
+            }
+            fieldset,h1{
+                    margin: 0 40px;
+                    
+
+
+            }
+            </style>
+
+   <title> CONTACTO</title>
+</head>
+<body>
+
+     <header>
+            
+            <h1>Danna Manrique</h1>
+            <nav>
+                <ul>
+                    <li><a href="personal.html">INICIO</a></li>
+                    <li><a href="INICIO.html">INTERESES</a></li>
+                    <li><a href="CONTACTO.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+    <article id=""contenido">
+        <h1>formulario</h1>
+        <form action="" method="post"><!--get vs post-->
+<fieldset>
+        <legend>datos personales</legend>
+<label for="nombre">nombre completo</label>
+<input type="text" name ="nombre" placeholder="ingresa tu nombre completo" required>
+<br><br>
+<label for="edad">edad</label>
+<input type="number" name ="Edad" min="0" max="100">
+<br><br>
+<label for="fecha">fecha de nacimiento:</label>
+<input type="date" name ="fecha">
+<br><br>
+<label for="contra">contraseña:</label>
+<input type="password" name ="contra">
+<br><br>
+<label for="foto">foto:</label>
+<input type="file" name ="foto">
+<br><br>
+<label for="gen">genero:</label>
+<input type="radio" name ="gen"> femenino
+<input type="radio" name ="gen"> masculino
+<input type="radio" name ="gen"> otro
+</fieldset>
+<fieldset>
+    <legend> interes:</legend>
+    <label for="beb">En comun:</label>
+<input type="checkbox" name ="beb"> nadar
+<input type="checkbox" name ="beb"> diseñar
+<input type="checkbox" name ="beb"> hacer publicidad
+<br>
+<label for="color">color favorito:</label>
+<input type="color" name ="color"> 
+<br>
+<label for="musica">genero musical</label>
+<select name ="musica" id="musica"> 
+    <option value="1">Pop</option>
+        <option value="2">clasica</option>
+            <option value="3">blues</option>
+                <option value="4">hip hop</option>
+</select>
+</fieldset>
+<br>
+<input type="submit" value="enviar">
+</form>
+
+    </article>
+
+    <br><br>
+         <FOOter>
+                <P> &copy; 2030 WEB DannaManrique | Contacto: alondramanrique7@gmail.com</P>
+            <section class="social-icons"> 
+                <a href="https://www.facebook.com/danna.manrique.77" target="_blank">
+                    <i class= " fab fa-facebook"></i></a>
+                <a href="" target="_blank">
+                    <i class="fab fa-x"></i></a>
+                <a href="" target="_blank">
+                    <i class="fab fa-instagram"></i></a>
+            </section>
+            </FOOter>
+</body>
+
+</html>
